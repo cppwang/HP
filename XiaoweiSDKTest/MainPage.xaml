@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="XiaoweiSDKTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XiaoweiSDKTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+            <Button Content="GetQrCode" Click="BtnClick_GetQrCode" Width="120" Height="50" Margin="10"/>
+            <Button Content="GetIotDevie" Click="BtnClick_GetIotDevie" Width="120" Height="50" Margin="10"/>
+            <Button Content="GetDin" Click="BtnClick_GetDin" Width="120" Height="50" Margin="10"/>
+        </StackPanel>
+        
+    </Grid>
+</Page>
